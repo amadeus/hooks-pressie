@@ -1,3 +1,27 @@
 .wrapper {
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 100px;
+  padding: 10px 20px;
+  font-family: monospace;
+}
+
+.button {
+  appearance: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff35ee;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translate3d(0, 1px, 0);
 }
